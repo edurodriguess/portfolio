@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfólio - Eduardo Assunção</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+        integrity="sha512-" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="light-mode">
+    <!-- Cabeçalho Fixo -->
+    <header class="navbar navbar-expand-lg fixed-top shadow-sm">
+        <div class="container px-3">
+            <a class="navbar-brand text-white" href="#"><img src="imagens/logo.png" width="100%" height="40px"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <svg width="24" height="24" fill="#ffffff" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd"
+                        d="M1.5 12a.5.5 0 0 1 0-1h13a.5.5 0 0 1 0 1h-13zm0-4.5a.5.5 0 0 1 0-1h13a.5.5 0 0 1 0 1h-13zM1.5 3a.5.5 0 0 1 0-1h13a.5.5 0 0 1 0 1h-13z" />
+                </svg>
+            </button>
+            <div class="collapse navbar-collapse justify-content-between" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link" href="#capa">Início</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#sobre">Sobre Mim</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#projetos">Projetos</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+                </ul>
+                <!-- <button id="modoToggle" class="btn btn-outline-dark ms-3">Modo Escuro</button> -->
+            </div>
+        </div>
+    </header>
+
+    <!-- Seções -->
+    <section id="capa" class="parallax-section text-white d-flex align-items-center">
+        <div class="container secao-container">
+            <div class="row align-items-center">
+
+                <!-- Bloco do Texto à Direita -->
+                <div class="col-md-6 text-center text-md-start container-capa">
+                    <h4 class="fw-light">Olá! Me chamo</h4>
+                    <h1 class="fw-bold mt-3 mb-3 title-name">EDUARDO ASSUNÇÃO</h1>
+                    <h3 class="sub-title">
+                        <span id="typed-text"></span>
+                    </h3>
+                    <div class="mt-4">
+                        <a href="https://www.linkedin.com/in/fronteduardo/" class="btn btn-interative raise me-2"
+                            target="_blank"><i class="bi bi-linkedin me-1"></i>Linkedin</a>
+                        <a href="https://github.com/edurodriguess" class="btn btn-interative raise" target="_blank"><i
+                                class="bi bi-github me-1"></i>GitHub</a>
+                    </div>
+                </div>
+
+                <!-- Bloco da Imagem à Esquerda -->
+                <div class="col-md-6 text-center mb-4 mb-md-0">
+                    <img src="imagens/perfil.png" alt="Foto de Eduardo" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="sobre" class="p-5 bg-body text-dark">
+        <div class="container secao-container">
+            <h2 class="text-center mb-5 fw-bold title-topic">Sobre Mim</h2>
+            <div class="row align-items-start">
+                <!-- Bloco Esquerdo - Ícones -->
+                <div class="col-md-4 mb-4 mb-md-0">
+                    <div class="text-center">
+                        <img src="imagens/sobremim.png" width="90%">
+                    </div>
+
+                    <!-- Botão do Currículo -->
+                    <div class="text-center mt-5 mb-4">
+                        <a href="imagens/pdf/EduardoAssuncao_UXWEB_CV_2025.pdf" target="_blank"
+                            class="btn btn-interative raise">
+                            <i class="fas fa-file-pdf"></i> Currículo
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Bloco Direito - Texto -->
+                <div class="col-md-8">
+                    <p>
+                        Olá! Me chamo Eduardo, tenho 23 anos e moro em Brasília. Atualmente, trabalho como Desenvolvedor
+                        Front-end em uma universidade, onde aplico meus conhecimentos em desenvolvimento, design gráfico
+                        e UX Design para criar interfaces que aliem estética, funcionalidade e acessibilidade,
+                        impactando diretamente a experiência de milhares de alunos.
+                    </p>
+                    <p>
+                        Tenho experiência com HTML, CSS, JavaScript, TypeScript, Bootstrap e React, além de domínio no
+                        Figma para prototipação e estruturação de layouts. Gosto de transformar ideias em interfaces
+                        claras e acessíveis, cuidando de todo o processo, do design à implementação, para garantir uma
+                        experiência fluida e intuitiva.
+                    </p>
+                    <p>Com uma base sólida em design gráfico e uma pós-graduação em UX Design em andamento, venho
+                        ampliando meu olhar para criar soluções mais funcionais, coerentes e centradas no usuário.</p>
+                    <p>Sigo sempre em busca de aprendizado e evolução, acompanhando as mudanças do universo digital e
+                        contribuindo com entregas que realmente façam sentido para quem está do outro lado da tela.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projetos" class="py-5 bg-light">
+        <div class="container">
+            <h2 class="mb-5 text-center title-topic fw-bold">Projetos</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <div class="card card-custom mb-4 flex-md-row shadow-sm mb-5">
+                        <div class="col-md-4 position-relative project-preview overflow-hidden rounded-start m-auto">
+                            <!-- Imagem de capa (visível inicialmente) -->
+                            <img src="imagens/projetos/ambientacao.png"
+                                class="preview-cover-img position-absolute top-0 start-0 w-100 h-100"
+                                alt="Capa do projeto">
+
+                            <!-- Imagem que faz scroll -->
+                            <img src="imagens/projetos/ambientacao-preview.png"
+                                class="scroll-image img-fluid h-auto w-100" alt="Preview do projeto">
+                        </div>
+
+                        <div class="col-md-8 p-4 d-flex flex-column justify-content-between">
+                            <div>
+                                <h4 class="mb-2">Ambientação para alunos</h4>
+                                <hr class="my-2" style="border-top: 1px solid #ccc;">
+                                <p class="text-muted mb-3 leanguages">Figma, HTML, CSS, JavaScript, Bootstrap</p>
+                                <p class="description">Projeto de ambientação desenvolvido para alunos em ambiente
+                                    Moodle, com foco em interatividade, responsividade e acessibilidade. Inclui
+                                    elementos dinâmicos e lógica de adaptação automática ao perfil do usuário
+                                    cadastrado, proporcionando uma experiência personalizada. Todo o desenvolvimento foi
+                                    feito com HTML, CSS, JavaScript e Bootstrap, passando desde a criação dos wireframes
+                                    até a implementação final.</p>
+                            </div>
+                            <div>
+                                <a href="#" class="btn btn-interative me-2">Visualizar Projeto</a>
+                                <a href="https://github.com/edurodriguess/ambientacao-dicentes"
+                                    class="btn btn-interative-sec" target="_blank">Ver Repositório</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card card-custom mb-4 flex-md-row shadow-sm mb-5">
+                        <div class="col-md-4 position-relative project-preview overflow-hidden rounded-start m-auto">
+                            <img src="imagens/projetos/biblioteca.png"
+                                class="preview-cover-img position-absolute top-0 start-0 w-100 h-100"
+                                alt="Capa do projeto">
+                            <img src="imagens/projetos/brinquedoteca-preview.png"
+                                class="scroll-image img-fluid h-auto w-100" alt="Preview do projeto">
+                        </div>
+                        <div class="col-md-8 p-4 d-flex flex-column justify-content-between">
+                            <div>
+                                <h4 class="mb-2">Biblioteca Pedagógica</h4>
+                                <hr class="my-2" style="border-top: 1px solid #ccc;">
+                                <p class="text-muted mb-3 leanguages">Figma, HTML, CSS, JavaScript, Bootstrap</p>
+                                <p class="description">Este projeto consistiu no redesign de uma plataforma voltada para
+                                    temas pedagógicos, funcionando como um “laboratório de pedagogia”. O foco foi na
+                                    reformulação da estrutura de navegação, tornando a experiência do usuário mais
+                                    intuitiva e fluida. Além disso, foram implementadas melhorias significativas na
+                                    responsividade, garantindo acesso eficiente em diferentes dispositivos e tamanhos de
+                                    tela.</p>
+                            </div>
+                            <div>
+                                <a href="#" class="btn btn-interative me-2">Visualizar Projeto</a>
+                                <a href="https://github.com/edurodriguess/lab-pedagogia" class="btn btn-interative-sec"
+                                    target="_blank">Ver Repositório</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card card-custom mb-4 flex-md-row shadow-sm mb-5">
+                        <div class="col-md-4 position-relative project-preview overflow-hidden rounded-start m-auto">
+                            <img src="imagens/projetos/portfolio.png"
+                                class="preview-cover-img position-absolute top-0 start-0 w-100 h-100"
+                                alt="Capa do projeto">
+                            <img src="imagens/projetos/portfolio-preview.png"
+                                class="scroll-image img-fluid h-auto w-100" alt="Preview do projeto">
+                        </div>
+                        <div class="col-md-8 p-4 d-flex flex-column justify-content-between">
+                            <div>
+                                <h4 class="mb-2">Portfólio</h4>
+                                <hr class="my-2" style="border-top: 1px solid #ccc;">
+                                <p class="text-muted mb-3 leanguages">HTML, CSS, JavaScript, Bootstrap</p>
+                                <p class="description">Desenvolvimento de um portfólio one page com foco em navegação
+                                    fluida e estruturação clara das seções. O projeto inclui design responsivo, modo
+                                    claro/escuro, scroll suave e organização dos conteúdos por etapas, refletindo boas
+                                    práticas de UX/UI e desenvolvimento front-end moderno.</p>
+                            </div>
+                            <div>
+                                <a href="#" class="btn btn-interative me-2">Visualizar Projeto</a>
+                                <a href="https://github.com/edurodriguess/portfolio" class="btn btn-interative-sec"
+                                    target="_blank">Ver Repositório</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="card card-custom mb-4 flex-md-row shadow-sm mb-5">
+                        <div class="col-md-4 position-relative project-preview overflow-hidden rounded-start m-auto">
+                            <img src="imagens/projetos/pokedex.png"
+                                class="preview-cover-img position-absolute top-0 start-0 w-100 h-100"
+                                alt="Capa do projeto">
+                            <img src="imagens/projetos/pokedex-preview.png" class="scroll-image img-fluid h-auto w-100"
+                                alt="Preview do projeto">
+                        </div>
+                        <div class="col-md-8 p-4 d-flex flex-column justify-content-between">
+                            <div>
+                                <h4 class="mb-2">Pokedex</h4>
+                                <hr class="my-2" style="border-top: 1px solid #ccc;">
+                                <p class="text-muted mb-3 leanguages">HTML, CSS, JavaScript, API</p>
+                                <p class="description">Aplicação simples e responsiva que permite buscar Pokémon pelo
+                                    nome ou número, utilizando dados em tempo real da PokéAPI. Exibe informações básicas
+                                    como nome, tipo e imagem oficial. O foco do projeto é praticar consumo de API,
+                                    manipulação de DOM e apresentação limpa dos dados.
+                                </p>
+                            </div>
+                            <div>
+                                <a href="https://edurodriguess.github.io/pokedex/" class="btn btn-interative me-2"
+                                    target="_blank">Visualizar Projeto</a>
+                                <a href="https://github.com/edurodriguess/pokedex" class="btn btn-interative-sec"
+                                    target="_blank">Ver
+                                    Repositório</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="contato-section mb-5">
+        <h2 class="mb-5 text-center title-topic fw-bold">Contato</h2>
+        <div class="container-form">
+            <h3 class="text-center">Deixe o seu recado</h3>
+            <form id="form-contato">
+                <div class="form-group">
+                    <label for="user_name">Nome</label>
+                    <input type="text" id="user_name" name="user_name" required />
+                </div>
+                <div class="form-group">
+                    <label for="user_email">E-mail</label>
+                    <input type="email" id="user_email" name="user_email" required />
+                </div>
+                <div class="form-group">
+                    <label for="subject">Assunto</label>
+                    <input type="text" id="subject" name="subject" required />
+                </div>
+                <div class="form-group">
+                    <label for="message">Mensagem</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <div class="form-actions">
+                    <button type="submit" class="btn btn-interative raise">Enviar</button>
+                </div>
+                <p id="confirmacao" class="mensagem-sucesso hidden">Mensagem enviada com sucesso!</p>
+            </form>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="footer-content container">
+            <div class="footer-info">
+                <p>Desenvolvido por <strong>Eduardo Assunção</strong></p>
+                <p>© 2025 Todos os direitos reservados</p>
+            </div>
+
+            <div class="footer-social">
+                <a href="https://www.linkedin.com/in/fronteduardo/" target="_blank" class="linkedin-link">
+                    <i class="bi bi-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botão para voltar ao topo -->
+    <button id="backToTop" title="Voltar ao topo">
+        ↑
+    </button>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
+    <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+    <script>
+        emailjs.init("HZl_Re4_VCn4T7Wlx");
+
+        document.getElementById("form-contato").addEventListener("submit", function (e) {
+            e.preventDefault();
+
+            emailjs
+                .sendForm("service_p3nergf", "template_4kr2gva", this)
+                .then(() => {
+                    document.getElementById("confirmacao").classList.remove("hidden");
+                    this.reset();
+                })
+                .catch((err) => {
+                    console.error(err);
+                    alert("Erro ao enviar. Tente novamente.");
+                });
+        });
+    </script>
+</body>
+
+</html>
